@@ -2,6 +2,16 @@
     box-sizing: border-box;
   }
 
+  @font-face {
+    font-family: 'ExtraOrnamentalNo2';
+    src: url('ExtraOrnamentalNo2.ttf');
+  }
+
+  @font-face {
+    font-family: 'lalezar';
+    src: url('Lalezar-Regular.ttf');
+  }
+
     body {
         margin: 0;
         padding: 0;
@@ -16,6 +26,16 @@
       justify-content: space-between;
       border-bottom: 1px solid #849192;
       position: relative;
+    }
+
+    .navigation-item {
+      font-family: 'lalezar',serif;
+      font-size: 1.5rem;
+      color: #01BEDB;
+      text-decoration: none;
+      justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
     }
 
     /* Para o fundo funcionar*/
